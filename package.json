@@ -1,0 +1,34 @@
+{
+  "name": "cnki-cli",
+  "version": "0.1.0",
+  "description": "在命令行里检索知网并下载 PDF。零依赖，任何能执行命令的 AI 都能用。",
+  "type": "module",
+  "bin": {
+    "cnki": "./cnki.js"
+  },
+  "files": [
+    "cnki.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "cnki",
+    "知网",
+    "pdf",
+    "cli",
+    "literature",
+    "academic-research"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigFier/cnki-cli.git"
+  },
+  "homepage": "https://github.com/BigFier/cnki-cli#readme",
+  "bugs": {
+    "url": "https://github.com/BigFier/cnki-cli/issues"
+  }
+}
